@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div id="wrapper" class="toggled">
+
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#"><i class="fa fa-modx" style="font-size:25px"></i> Serch-In</a>
+                </li>
+                <li>
+                    <a class="opt" href="#">Dashboard</a>
+                </li>
+                <li>
+                    <a class="opt" href="#">Analytics</a>
+                </li>
+                <li>
+                    <a class="opt" href="#">Inventory Management</a>
+                </li>
+                <li>
+                    <a class="opt" href="#">Calculate Analytics</a>
+                </li>
+                <li>
+                    <a class="opt" href="#">Reports</a>
+                </li>
+                <li>
+                    <a class="opt" href="#">Live Update</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Page Content -->
+        <div class="main">
+            <div class="row justify-content-between">
+            <h3 class="heading">Transaction</h3>
+            <h4 class="user"><i class="fa fa-user user2"></i>Jayesh Bhavsar</h4>
+        </div>
+
+            <fieldset class="scheduler-border">
+                <legend class="scheduler-border">Start Time</legend>
+                <div class="control-group">
+                    <div class="line">
+                        <i class="fa fa-search ser-l"></i>
+                        
+                        <input class="form-control form-control-sm serch me-2" type="search" placeholder="Search"
+                            aria-label="Search">
+                        <button type="button" class="btn btn-secondary bt btn-sm shadow"><i class="fa fa-plus"></i> Create Ledger</button>
+                        <select class=" form-control-sm sort shadow" id="exampleFormControlSelect1">
+                            <option>Today</option>
+                            <option>This Month</option>
+                            <option>Next 3 month</option>
+                            <option>Next 6 month</option>
+                        </select>
+                        <div class="input-group mb-3 sel">
+                            <button class="btn btn-sm btn-outline-secondary btn1" type="button">Genral</button>
+                            <button class="btn btn-sm btn-outline-secondary btn2" type="button">Purchase</button>
+                            <button class="btn btn-sm btn-outline-secondary btn3" type="button">Sales</button>
+                          </div>
+
+                          <!-- table -->
+                          <table class="table table-borderless">
+                            <thead>
+                              <tr>
+                                <th class="tb-head" scope="col">Name <i class="fa fa-sort" style="font-size:10px"></i></th>
+                                <th class="tb-head" scope="col">Prduct Name <i class="fa fa-sort" style="font-size:10px"></i></th>
+                                <th class="tb-head" scope="col">Price <i class="fa fa-sort" style="font-size:10px"></i></th>
+                                <th class="tb-head" scope="col">Quantity <i class="fa fa-sort" style="font-size:10px"></i></th>
+                                <th class="tb-head" scope="col">Created Date <i class="fa fa-sort" style="font-size:10px"></i></th>
+                                <th class="tb-head" scope="col">Modified Date <i class="fa fa-sort" style="font-size:10px"></i></th>
+                                <th class="tb-head" scope="col">Due Date <i class="fa fa-sort" style="font-size:10px"></i></th>
+                                <th class="tb-head" scope="col">Set Reminder</th>
+                                <th class="tb-head" scope="col"></th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>Jayesh Bhavsar</td>
+                                <td>Arduino-UNO</td>
+                                <td>450</td>
+                                <td>100</td>
+                                <td>11/03/2022</td>
+                                <td>11/03/2022</td>
+                                <td>11/03/2022</td>
+                                <td><div class="form-group form-check text-center check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1" checked>
+                                  </div></td>
+                                <td style="padding: 4px;"><button class="btn btn-sm btn-outline-secondary btn-tb shadow" type="button">edit</button></td>
+                              </tr>
+                              <tr>
+                                <td>Jayesh Bhavsar</td>
+                                <td>Arduino-UNO</td>
+                                <td>450</td>
+                                <td>100</td>
+                                <td>11/03/2022</td>
+                                <td>11/03/2022</td>
+                                <td>11/03/2022</td>
+                                <td><div class="form-group form-check text-center check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1" checked>
+                                  </div></td>
+                                <td style="padding: 4px;"><button class="btn btn-sm btn-outline-secondary btn-tb shadow" type="button">edit</button></td>
+                              </tr>
+                              <tr>
+                                <td>Jayesh Bhavsar</td>
+                                <td>Arduino-UNO</td>
+                                <td>450</td>
+                                <td>100</td>
+                                <td>11/03/2022</td>
+                                <td>11/03/2022</td>
+                                <td>11/03/2022</td>
+                                <td><div class="form-group form-check text-center check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1" checked>
+                                  </div></td>
+                                <td style="padding: 4px;"><button class="btn btn-sm btn-outline-secondary btn-tb shadow" type="button">edit</button></td>
+                              </tr>
+                              <tr>
+                                <td>Jayesh Bhavsar</td>
+                                <td>Arduino-UNO</td>
+                                <td>450</td>
+                                <td>100</td>
+                                <td>11/03/2022</td>
+                                <td>11/03/2022</td>
+                                <td>11/03/2022</td>
+                                <td><div class="form-group form-check text-center check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1" checked>
+                                  </div></td>
+                                <td style="padding: 4px;"><button class="btn btn-sm btn-outline-secondary btn-tb shadow" type="button">edit</button></td>
+                              </tr>
+                              <tr>
+                                <td>Jayesh Bhavsar</td>
+                                <td>Arduino-UNO</td>
+                                <td>450</td>
+                                <td>100</td>
+                                <td>11/03/2022</td>
+                                <td>11/03/2022</td>
+                                <td>11/03/2022</td>
+                                <td><div class="form-group form-check text-center check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1" checked>
+                                  </div></td>
+                                <td style="padding: 4px;"><button class="btn btn-sm btn-outline-secondary btn-tb shadow" type="button">edit</button></td>
+                              </tr>
+                              <tr>
+                                <td>Jayesh Bhavsar</td>
+                                <td>Arduino-UNO</td>
+                                <td>450</td>
+                                <td>100</td>
+                                <td>11/03/2022</td>
+                                <td>11/03/2022</td>
+                                <td>11/03/2022</td>
+                                <td><div class="form-group form-check text-center check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1" checked>
+                                  </div></td>
+                                <td style="padding: 4px;"><button class="btn btn-sm btn-outline-secondary btn-tb shadow" type="button">edit</button></td>
+                              </tr>
+                              <tr>
+                                <td>Jayesh Bhavsar</td>
+                                <td>Arduino-UNO</td>
+                                <td>450</td>
+                                <td>100</td>
+                                <td>11/03/2022</td>
+                                <td>11/03/2022</td>
+                                <td>11/03/2022</td>
+                                <td><div class="form-group form-check text-center check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1" checked>
+                                  </div></td>
+                                <td style="padding: 4px;"><button class="btn btn-sm btn-outline-secondary btn-tb shadow" type="button">edit</button></td>
+                              </tr>
+                              <tr>
+                                <td>Jayesh Bhavsar</td>
+                                <td>Arduino-UNO</td>
+                                <td>450</td>
+                                <td>100</td>
+                                <td>11/03/2022</td>
+                                <td>11/03/2022</td>
+                                <td>11/03/2022</td>
+                                <td><div class="form-group form-check text-center check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1" checked>
+                                  </div></td>
+                                <td style="padding: 4px;"><button class="btn btn-sm btn-outline-secondary btn-tb shadow" type="button">edit</button></td>
+                              </tr>
+                              <tr>
+                                <td>Jayesh Bhavsar</td>
+                                <td>Arduino-UNO</td>
+                                <td>450</td>
+                                <td>100</td>
+                                <td>11/03/2022</td>
+                                <td>11/03/2022</td>
+                                <td>11/03/2022</td>
+                                <td><div class="form-group form-check text-center check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1" checked>
+                                  </div></td>
+                                <td style="padding: 4px;"><button class="btn btn-sm btn-outline-secondary btn-tb shadow" type="button">edit</button></td>
+                              </tr>
+                              <tr>
+                                <td>Jayesh Bhavsar</td>
+                                <td>Arduino-UNO</td>
+                                <td>450</td>
+                                <td>100</td>
+                                <td>11/03/2022</td>
+                                <td>11/03/2022</td>
+                                <td>11/03/2022</td>
+                                <td><div class="form-group form-check text-center check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1" checked>
+                                  </div></td>
+                                <td style="padding: 4px;"><button class="btn btn-sm btn-outline-secondary btn-tb shadow" type="button">edit</button></td>
+                              </tr>
+                              <tr>
+                                <td>Jayesh Bhavsar</td>
+                                <td>Arduino-UNO</td>
+                                <td>450</td>
+                                <td>100</td>
+                                <td>11/03/2022</td>
+                                <td>11/03/2022</td>
+                                <td>11/03/2022</td>
+                                <td><div class="form-group form-check text-center check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1" checked>
+                                  </div></td>
+                                <td style="padding: 4px;"><button class="btn btn-sm btn-outline-secondary btn-tb shadow" type="button">edit</button></td>
+                              </tr>
+                              <tr>
+                                <td>Jayesh Bhavsar</td>
+                                <td>Arduino-UNO</td>
+                                <td>450</td>
+                                <td>100</td>
+                                <td>11/03/2022</td>
+                                <td>11/03/2022</td>
+                                <td>11/03/2022</td>
+                                <td><div class="form-group form-check text-center check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1" checked>
+                                  </div></td>
+                                <td style="padding: 4px;"><button class="btn btn-sm btn-outline-secondary btn-tb shadow" type="button">edit</button></td>
+                              </tr>
+                              <tr>
+                                <td>Jayesh Bhavsar</td>
+                                <td>Arduino-UNO</td>
+                                <td>450</td>
+                                <td>100</td>
+                                <td>11/03/2022</td>
+                                <td>11/03/2022</td>
+                                <td>11/03/2022</td>
+                                <td><div class="form-group form-check text-center check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1" checked>
+                                  </div></td>
+                                <td style="padding: 4px;"><button class="btn btn-sm btn-outline-secondary btn-tb shadow" type="button">edit</button></td>
+                              </tr>
+                              <tr>
+                                <td>Jayesh Bhavsar</td>
+                                <td>Arduino-UNO</td>
+                                <td>450</td>
+                                <td>100</td>
+                                <td>11/03/2022</td>
+                                <td>11/03/2022</td>
+                                <td>11/03/2022</td>
+                                <td><div class="form-group form-check text-center check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1" checked>
+                                  </div></td>
+                                <td style="padding: 4px;"><button class="btn btn-sm btn-outline-secondary btn-tb shadow" type="button">edit</button></td>
+                              </tr>
+                              <tr>
+                                <td>Jayesh Bhavsar</td>
+                                <td>Arduino-UNO</td>
+                                <td>450</td>
+                                <td>100</td>
+                                <td>11/03/2022</td>
+                                <td>11/03/2022</td>
+                                <td>11/03/2022</td>
+                                <td><div class="form-group form-check text-center check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1" checked>
+                                  </div></td>
+                                <td style="padding: 4px;"><button class="btn btn-sm btn-outline-secondary btn-tb shadow" type="button">edit</button></td>
+                              </tr>
+                              <tr>
+                                <td>Jayesh Bhavsar</td>
+                                <td>Arduino-UNO</td>
+                                <td>450</td>
+                                <td>100</td>
+                                <td>11/03/2022</td>
+                                <td>11/03/2022</td>
+                                <td>11/03/2022</td>
+                                <td><div class="form-group form-check text-center check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1" checked>
+                                  </div></td>
+                                <td style="padding: 4px;"><button class="btn btn-sm btn-outline-secondary btn-tb shadow" type="button">edit</button></td>
+                              </tr>
+                              <tr>
+                                <td>Jayesh Bhavsar</td>
+                                <td>Arduino-UNO</td>
+                                <td>450</td>
+                                <td>100</td>
+                                <td>11/03/2022</td>
+                                <td>11/03/2022</td>
+                                <td>11/03/2022</td>
+                                <td><div class="form-group form-check text-center check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1" checked>
+                                  </div></td>
+                                <td style="padding: 4px;"><button class="btn btn-sm btn-outline-secondary btn-tb shadow" type="button">edit</button></td>
+                              </tr>
+                              
+                            </tbody>
+                          </table>
+                          <!-- end table -->
+
+                    </div>
+                </div>
+            </fieldset>
+        </div>
+
+    </div>
+
+
+
+    <!-- Bootstrap JavaScript -->
+    <script src="./bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
